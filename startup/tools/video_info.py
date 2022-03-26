@@ -5,7 +5,7 @@ import time
 import json
 import shlex
 import shutil
-from bot.client import (
+from startup.client import (
     Client
 )
 from configs import Config

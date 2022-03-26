@@ -17,7 +17,7 @@ from startup.core.file_info import (
     get_file_attr
 )
 from configs import Config
-from bot.core.display import progress_for_pyrogram
+from startup.core.display import progress_for_pyrogram
 from startup.core.db.database import db
 from startup.core.db.add import add_user_to_database
 from startup.core.handlers.not_big import handle_not_big

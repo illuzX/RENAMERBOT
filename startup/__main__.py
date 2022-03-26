@@ -4,4 +4,4 @@ import startup
 
 
 if __name__ == "__main__":
-    bot.bot.run()
+    startup.bot.run()

@@ -17,7 +17,7 @@ rename or Thumbnail changer
 
 Press Below Button to Deploy!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/illuzX/Rename_TG_Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/illuzX/RENAMERBOT)
 
 #### ORGINAL CREDITS 
 - [subinps](https://github.com/subinps)

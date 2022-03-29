@@ -32,7 +32,11 @@ from pyrogram import (
     filters,
     types
 )
-
+from startup.core.db.database import db
+from startup.core.db.add import add_user_to_database
+from startup.core.handlers.not_big import handle_not_big
+from startup.core.handlers.time_gap import check_time_gap
+from startup.core.handlers.big_rename import handle_big_rename
 
 @Client.on_message((filters.video | filters.audio | filters.document) & ~filters.channel & ~filters.edited)
 async def on_media_handler(c: Client, m: "types.Message"):

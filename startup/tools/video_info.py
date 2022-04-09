@@ -44,8 +44,7 @@ async def video_info_handler(c: Client, m: Message):
     audio_title = None
     subtitle_title = None
     default_f_name = get_media_file_name(m.reply_to_message)
-    new_file_name = f"{default_f_name.rsplit('.', 1)[0] if default_f_name else 'output'}
-     @mvbzzer_LinkzZz.mkv"
+    new_file_name = f"{default_f_name.rsplit('.', 1)[0] if default_f_name else 'output'}mvbzzer_LinkzZz.mkv"
     if len(m.command) <= 1:
         return
 

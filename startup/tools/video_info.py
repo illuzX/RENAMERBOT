@@ -33,7 +33,7 @@ async def video_info_handler(c: Client, m: Message):
     if filesystem_free() < 5000000000:
         return await m.reply_text(
             "Because of less server space I can't do this task right now !!\n\n"
-            "Please try again after some time or use @AHToolsBot to do same task.",
+            "Please try again after some time or use @Meow_pm_bot to wtach some movie like neram pokk.",
             True
         )
     if (not m.reply_to_message) or (len(m.command) == 1):
@@ -44,7 +44,7 @@ async def video_info_handler(c: Client, m: Message):
     audio_title = None
     subtitle_title = None
     default_f_name = get_media_file_name(m.reply_to_message)
-    new_file_name = f"{default_f_name.rsplit('.', 1)[0] if default_f_name else 'output'}mvbzzer_LinkzZz.mkv"
+    new_file_name = f"{default_f_name.rsplit('.', 1)[0] if default_f_name else 'output'}@mvbzzer_LinkzZz.mkv"
     if len(m.command) <= 1:
         return
 

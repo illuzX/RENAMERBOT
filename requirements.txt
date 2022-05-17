@@ -1,4 +1,4 @@
-Pyrogram
+https://github.com/illuzx/pyrogram/archive/master.zip
 TgCrypto
 pyromod
 python-dotenv
